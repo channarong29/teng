@@ -2,8 +2,7 @@
   
 
 function send_LINE($msg){
- $access_token = 'FE6SNDANIq5RD+bf/Bj2E9CUbUBpCedmSiPuHd4sOhwURx9lXhC2kBpoLpVdPi0Vi+BcyVpnYo5o+5jnJnRHD9U4KgM4T5Xt2JIeua7N+aLTQ8L/ZRoE7/EkeF6SwLp3tcMf5XbCOnytW3jff+ZKzwdB04t89/1O/w1cDnyilFU=
-'; 
+ $access_token = 'ZB8NY8+ADBPDdNg4eAB6I8chpeBZ0BOHqDfbLTceegFhDuWT3d/UFJhXadinLY6jmJdT/FUpR6BR+0Ta70wb8nvGdK/TVxNVpatWY7oZ28hT4EI2j5whiv11Dah97d1P64b4w+yGHgwtZEYskTQXhQdB04t89/1O/w1cDnyilFU='; 
 
   $messages = [
         'type' => 'text',
@@ -15,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
-        'to' => 'U4a1d30cba4ce0aff87d95c691e8af3a4',
+        'to' => 'U9809b553c667a0cac53140dd5b3db51e',  //user id ของ Line Developer
         'messages' => [$messages],
       ];
       $post = json_encode($data);
